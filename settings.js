@@ -19,9 +19,9 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['96891103640']
-global.premium = ['96891103640']
-global.ownernomer = '96891103640'
+global.owner = ['+966 505433177']
+global.premium = ['+966 505433177']
+global.ownernomer = '+966 505433177'
 global.ownername = '( Tomioka Gyo )'
 global.botname = '( Tomioka Gyo )'
 global.footer = '( 🌊Tomioka Gyo🌊)'
