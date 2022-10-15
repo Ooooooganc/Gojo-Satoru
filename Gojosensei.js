@@ -1799,7 +1799,7 @@ break
                                     id: 'owner'
                                 }
                             }]
-                      let txt = `「 غوجو ساتورو موجود 🎉」\n\n${text}`
+                      let txt = `「 🌊 Tomioka Gyo is there 🎉」\n\n${text}`
                       GojoMdNx.send5ButImg(yoi, txt, GojoMdNx.user.name, global.thumb, btn)
 		}
 		reply('「 تم 🤗 」◣')
@@ -3384,12 +3384,12 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedFooterText: `┌─❖
 ┌─❖ مـرحبـاً 🤗 」
 └┬❖ 「 ${pushname} 」
-││✑「مـعـك بـوت غـوجـو 👋🏻」◣
-││✑「مـن مـمـلـكـة غولد 🤗」◣
+││✑「مـعـك بوت غيو👋🏻」◣
+││✑「🍁 مـن نقابة شيرو 🤗」◣
 │└───────────────┈ ⳹
  「 مـعـلـومـات عـن الـبـوت 」
-│✙「 اسـم الـبـوت 」◣ : 「 غوجو ✨🤞🏻 」◣
-│✙「 رقـم الـمـالـك 」◣ : ${global.owner}
+│✙「 اسـم الـبـوت 」◣ : 「 🌊 Tomioka Gyo 🤞🏻 」◣
+│✙「 رقـم الـمـالـك 」◣ : ${Gyol.owner}
 │✙「عـدد الـمـسـتـخـدمـيـن」◣ : ${Object.keys(global.db.data.users).length}
 └┬──────────────┈ ⳹
    │✑  「 اضـغـط عـلـى الـخـيـارات 🤗 」◣
@@ -3397,12 +3397,12 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                              hydratedButtons: [{
                                 urlButton: {
                                     displayText: '「 قناتي 」「📍」◣',
-                                    url: `${myweb}`
+                                    url: `${. }`
                                 }
                             }, {
                             	urlButton: {
                                 displayText: '「 رابط الاستقبال 」「📌」◣',
-                                    url: `${sc}`
+                                    url: `${https://chat.whatsapp.com/IZf9FdUEHPiJbGVJhdAJIN}`
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3417,7 +3417,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }, {
                                 quickReplyButton: {
                                     displayText: '「 المالك 」「👤」◣',
-                                    id: `${prefix}owner`
+                                    id: `${. }owner`
                                 }
                             }]
                         }
@@ -3439,11 +3439,11 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedFooterText: `
 ┌─❖ مـرحبـاً 🤗 」
 └┬❖ 「 ${pushname} 」
-││✑「مـعـك بـوت غـوجـو 👋🏻」◣
-││✑「مـن مـمـلـكـة غولد 🤗」◣
+││✑「مـعـك بـوت غيو 👋🏻」◣
+││✑「🍁 مـن نقابة شيرو 🤗」◣
 │└───────────────┈ ⳹
  「 مـعـلـومـات عـن الـبـوت 」
-│✙「 اسـم الـبـوت 」◣ : 「 غوجو ✨🤞🏻 」◣
+│✙「 اسـم الـبـوت 」◣ : 「 🌊 Tomioka Gyo ✨🤞🏻 」◣
 │✙「 رقـم الـمـالـك 」◣ : ${global.owner}
 │✙「عـدد الـمـسـتـخـدمـيـن」◣ : ${Object.keys(global.db.data.users).length}
 └┬──────────────┈ ⳹
@@ -3452,12 +3452,12 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: '「 قناتي 」「📍」◣',
-                                    url: `${myweb}`
+                                    url: `${. }`
                                 }
                             }, {
                             	urlButton: {
                                 displayText: '「 رابط الاستقبال 」「📌」◣',
-                                    url: `${sc}`
+                                    url: `${https://chat.whatsapp.com/IZf9FdUEHPiJbGVJhdAJIN}`
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3485,12 +3485,12 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
                     title: `「 مرحبا 👋🏻  」◣
-		    「 معك بوت غوجو 🤗 」◣
+		    「 معك بوت غيو  🤗 」◣
 		    「 افضل بوت عربي 」◣
 
- 「 رابط شرح كيف تصنع بوت عربي طريقة سهله راقب وتعلم. ولاتنسى الاشتراك بالقناة」◣
-		    「https://youtu.be/MBPIx3f-VIA」◣
-		    「 اتمنى ان تعملو اشتراك للقناة وتنشروها اذا تقدرو عشان ينتشر المقطع كمان والكل يستفيد وجزاه الله خير الي يشترك 💖🤗」◣                 
+ 「 رقم صاحب البوت 」◣
+		    「0505433177」◣
+		    「 🌊 Tomioka Gyo 💖🤗」◣                 
  「 رابط فرع التعليم على البوت」◣
 		    「https://chat.whatsapp.com/Gb62eN2S5yI9mhfdn6Ma4z」◣
 		    「 الي محتاج شروحات ينضم 」◣`,
